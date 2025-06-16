@@ -1,0 +1,10 @@
+==> Lec 5 - Advanced RAG    
+    - message queue to handle avoid rate limiting
+    - Producer - consumer/ worker
+
+Queue system:
+    RQ
+    RabbitMQ
+    Kafka
+    Radis
+

@@ -1,0 +1,42 @@
+make virtual environment: python3 -m venv venv
+activate environment: source venv/bin/activate
+deactivate environment: deactivate
+remove environment: rm -r venv
+
+install all packaged from requirements: pip install -r requirements.txt
+update requirements file: pip freeze > requirements.txt
+
+==> Run main file
+Goto root folder
+python3 -m rag_queue.main
+
+
+# Docker
+    - Way 1: using inbuild compose Docker   
+        cmd: docker compose -f /Users/mahipal/Work/Course/GenAI/Cohort_2/Gen_AI_Pratice/pratice/lec_4_rag/docker-compose.yml up
+             docker compose up
+        
+        in backround mode: docker compose up -d (-d means deattached mode)
+
+        stop docker: docker compose down
+
+        verify running images: docker ps
+
+
+RQ
+	in Mac before run below command
+		export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+
+	rq worker --with-scheduler --url redis://valkey:6379 (for docker)
+	rq worker --with-scheduler (in local system)
+
+# Startup based on RAG
+    inkeep ai
+    sitegpt    
+
+
+in langchain website injector - page by page 
+
+    job = queue.enqueue("pratice.rag_queue.queue.worker.process_query", query)
+
