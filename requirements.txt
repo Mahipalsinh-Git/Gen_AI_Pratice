@@ -42,6 +42,10 @@ langchain-core==0.3.65
 langchain-openai==0.3.23
 langchain-qdrant==0.2.0
 langchain-text-splitters==0.3.8
+langgraph==0.4.8
+langgraph-checkpoint==2.0.26
+langgraph-prebuilt==0.2.2
+langgraph-sdk==0.1.70
 langsmith==0.3.45
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
@@ -53,6 +57,7 @@ narwhals==1.42.1
 numpy==2.3.0
 openai==1.84.0
 orjson==3.10.18
+ormsgpack==1.10.0
 packaging==24.2
 pandas==2.3.0
 pillow==11.2.1
@@ -103,5 +108,6 @@ uvicorn==0.34.3
 uvloop==0.21.0
 watchfiles==1.0.5
 websockets==15.0.1
+xxhash==3.5.0
 yarl==1.20.1
 zstandard==0.23.0

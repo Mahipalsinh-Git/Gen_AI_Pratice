@@ -2,7 +2,6 @@ from fastapi import FastAPI, Query, Path
 from .queue.connection import queue
 from .queue.worker import process_query
 
-
 app = FastAPI()
 
 
