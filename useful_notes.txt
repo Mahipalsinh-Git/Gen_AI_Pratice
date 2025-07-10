@@ -37,6 +37,5 @@ RQ
 
 
 in langchain website injector - page by page 
-
     job = queue.enqueue("pratice.rag_queue.queue.worker.process_query", query)
 

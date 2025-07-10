@@ -1,0 +1,6 @@
+==> App Idea
+    1. HR Recurter post and watch it on mail and filter by AOT
+        a. Image based
+    2. QuillBolt clone
+    3. Article write and upload on various platform
+    4. Guardrails on specific tool 
