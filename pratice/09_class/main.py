@@ -22,6 +22,11 @@ Best approch
     + last 20 message
     + memory
     + user_query
+
+    user memory in queue - because heavy part
+
+    http://localhost:7474/browser/preview/
+    http://localhost:6333/dashboard#/collections/mem0
 """
 
 load_dotenv()
