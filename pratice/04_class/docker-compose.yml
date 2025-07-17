@@ -1,0 +1,5 @@
+services:
+  vector-db:
+    image: qdrant/qdrant # ✅ correct
+    ports:
+      - "6333:6333"

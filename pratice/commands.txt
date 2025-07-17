@@ -1,0 +1,14 @@
+Docker :
+    docker compose up -d : run docker service in background mode / deattached mode
+    docker compose down  : stop docker 
+    docker ps            : list of running images on docker
+
+Uvicorn
+     python -m 05_class.main: run project from main file
+
+RQ Worker
+    rq worker --with-scheduler : run rq worker // local
+    rq worker --with-scheduler --url redis://valkey:6379 // for server
+
+install all packaged from requirements: pip install -r requirements.txt
+update requirements file: pip freeze > requirements.txtc

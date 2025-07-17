@@ -15,8 +15,6 @@ def run_command(cmd: str):
 
 
 def get_weather(city: str):
-    # url = f"https://wttr.in{city}?format=%C+%t"
-
     url = f"https://wttr.in/{city}?format=%C+%t"
     response = requests.get(url)
 
